@@ -1,0 +1,10 @@
+1. How well do you understand the basic syntax and structure of Node.js?: Excellent
+2. How clear are you about key Node.js concepts such as asynchronous programming, event-driven architecture, and callbacks?: Good
+3. How confident are you in using Node.js to build server-side applications?: Good
+4. How effective were the examples and exercises in helping you understand Node.js modules and packages?: Very Good
+5. How helpful were the course materials (lectures, notes, assignments) in learning Node.js?: Excellent
+6. How satisfied are you with the instructor's ability to explain concepts and answer questions?: Bad
+7. How well do you understand the integration of Node.js with databases (e.g., MongoDB, MySQL)?: Excellent
+8. How effective were the hands-on projects in reinforcing your understanding of Node.js?: Excellent
+9. How would you rate the balance between theory and practical exercises in the course?: Excellent
+10. How would you rate your overall experience with the Node.js course?: Very Good

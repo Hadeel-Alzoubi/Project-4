@@ -1,0 +1,4 @@
+1. How well do you understand the basic syntax and structure of PHP?
+2. How clear are you about key PHP concepts such as variables, functions, and arrays?
+3. How confident are you in using PHP to build dynamic web applications?
+4. How helpful were the course materials (lectures, notes, assignments) in learning PHP?

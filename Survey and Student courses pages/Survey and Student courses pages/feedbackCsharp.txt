@@ -1,0 +1,7 @@
+1. How well do you understand the basic syntax and structure of C#?: Bad
+2. How clear are you about key C# concepts such as classes, objects, inheritance, and polymorphism?: Very Good
+3. How confident are you in applying C# to real-world problems and projects?: Excellent
+4. How helpful were the course materials (lectures, notes, assignments) in learning C#?: Excellent
+5. How satisfied are you with the instructor's ability to explain concepts and answer questions?: Excellent
+6. How effective were the coding exercises and labs in reinforcing your learning?: Very Bad
+7. How would you rate your overall experience with the C# course?: Excellent

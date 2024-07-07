@@ -1,0 +1,3 @@
+Hi: Excellent
+Hello: Excellent
+Hey: Very Bad
