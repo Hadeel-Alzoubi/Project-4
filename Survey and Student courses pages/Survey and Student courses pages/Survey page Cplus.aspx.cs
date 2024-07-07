@@ -14,52 +14,76 @@ namespace Survey_and_Student_courses_pages
         {
             if (!IsPostBack)
             {
+                // Check if survey was already submitted
                 if (Session["SurveySubmitted_C__"] != null && (bool)Session["SurveySubmitted_C__"])
                 {
                     ShowThankYou();
                 }
                 else
                 {
-                    LoadQustions();
+                    LoadQuestions();
                 }
             }
-
         }
 
-        private void LoadQustions()
+        // Class to handle feedback data
+        public class Feedback
+        {
+            public string UserID { get; set; }
+            public List<string> Responses { get; set; }
+
+            // Constructor to initialize user ID and responses
+            public Feedback(string userId, List<string> responses)
+            {
+                UserID = userId;
+                Responses = responses;
+            }
+
+            // Method to save feedback data to a file
+            public void SaveFeedback(string filePath)
+            {
+                List<string> feedbackData = new List<string> { $"User ID: {UserID}" };
+                feedbackData.AddRange(Responses);
+                File.AppendAllLines(filePath, feedbackData);
+            }
+        }
+
+        private void LoadQuestions()
         {
             string file = Server.MapPath("~/questionsPlus.txt");
             if (File.Exists(file))
             {
-                string[] qustions = File.ReadAllLines(file);
+                string[] questions = File.ReadAllLines(file);
                 int _numbers = 1;
 
-                foreach (string qustion in qustions)
+                foreach (string question in questions)
                 {
-                    // Create div
-                    Panel qustionBlock = new Panel { CssClass = "qustion-block" };
-                    // Label for Q
-                    Label qustionLable = new Label
+                    // Create a div for each question block
+                    Panel questionBlock = new Panel { CssClass = "question-block" };
+
+                    // Label for question
+                    Label questionLabel = new Label
                     {
                         ID = "LabelQ" + _numbers,
-                        Text = qustion,
+                        Text = question,
                         CssClass = "text-center d-block font-weight-bold"
                     };
-                    qustionBlock.Controls.Add(qustionLable);
-                    // If postback, check if the question was answered
+                    questionBlock.Controls.Add(questionLabel);
+
+                    // Check if the question was answered on postback
                     if (IsPostBack)
                     {
                         string selectedValue = Request.Form["G" + _numbers];
                         if (string.IsNullOrEmpty(selectedValue))
                         {
-                            if (!qustionLable.Text.Contains("<span class='required-star'>*</span>"))
+                            if (!questionLabel.Text.Contains("<span class='required-star'>*</span>"))
                             {
-                                qustionLable.Text += " <span class='required-star' style='color:red;'>*</span>"; // Add a red star to indicate the question is unanswered
+                                questionLabel.Text += " <span class='required-star' style='color:red;'>*</span>"; // Add a red star to indicate the question is unanswered
                             }
                         }
                     }
 
-                    // Create radio buttons
+                    // Create radio buttons for each option
                     string[] options = { "Excellent", "Very Good", "Good", "Bad", "Very Bad" };
                     for (int i = 0; i < options.Length; i++)
                     {
@@ -72,9 +96,9 @@ namespace Survey_and_Student_courses_pages
                             Attributes = { ["value"] = options[i] },
                         };
 
+                        // Check if this radio button was selected before the form submission
                         if (IsPostBack)
                         {
-                            // Check if this radio button was selected before the form submission
                             string selectedValue = Request.Form[radioButton.GroupName];
                             if (selectedValue != null && selectedValue == options[i])
                             {
@@ -82,23 +106,22 @@ namespace Survey_and_Student_courses_pages
                             }
                         }
 
-                        Label radioLable = new Label
+                        Label radioLabel = new Label
                         {
                             Text = options[i],
                             CssClass = "form-check-label",
                             AssociatedControlID = radioButton.ID,
                         };
                         formCheck.Controls.Add(radioButton);
-                        formCheck.Controls.Add(radioLable);
-                        qustionBlock.Controls.Add(formCheck);
+                        formCheck.Controls.Add(radioLabel);
+                        questionBlock.Controls.Add(formCheck);
                     }
 
-                    QuestionsPlaceholder.Controls.Add(qustionBlock);
+                    QuestionsPlaceholder.Controls.Add(questionBlock);
                     _numbers++;
                 }
             }
         }
-
 
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
@@ -128,20 +151,36 @@ namespace Survey_and_Student_courses_pages
 
             if (allAnswered)
             {
-                // Save feedback in txt
-                string feedbackPath = Server.MapPath("~/feedbackPlus.txt");
-                // Append feedback to the file
-                File.WriteAllLines(feedbackPath, feedback);
+                // Check if UserID exists in the session
+                if (Session["UserID"] != null)
+                {
+                    string userId = Session["UserID"].ToString();
 
-                // Mark as submitted
-                Session["SurveySubmitted_C__"] = true;
-                // Show thank you message 
-                ShowThankYou();
+                    // Create Feedback object and save feedback
+                    Feedback userFeedback = new Feedback(userId, feedback.ToList());
+                    string feedbackPath = Server.MapPath("~/feedbackPlus.txt");
+                    userFeedback.SaveFeedback(feedbackPath);
+
+                    // Mark as submitted
+                    Session["SurveySubmitted_C__"] = true;
+                    // Show thank you message 
+                    ShowThankYou();
+                }
+                else
+                {
+                    // Handle the case where the UserID is not set in the session
+                    ErrorMessage.Text = "User ID is not available. Please log in and try again.";
+                    ErrorMessage.Visible = true;
+
+                    // Ensure the survey panel remains visible
+                    SurveyPanel.Visible = true;
+                    ThankYouPanel.Visible = false;
+                }
             }
             else
             {
                 // Show error message if not all questions are answered
-                LoadQustions();
+                LoadQuestions();
                 ErrorMessage.Text = "Please answer all questions before submitting the survey.";
                 ErrorMessage.Visible = true;
 
@@ -161,8 +200,6 @@ namespace Survey_and_Student_courses_pages
         protected void BackToCoursesButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("Courses for student.aspx");
-            //Response.Write("<script>alert('Please select an option.');</script>");
-
         }
     }
 }

@@ -25,6 +25,27 @@ namespace Survey_and_Student_courses_pages
             }
 
         }
+        // Class to handle feedback data
+        public class Feedback
+        {
+            public string UserID { get; set; }
+            public List<string> Responses { get; set; }
+
+            // Constructor to initialize user ID and responses
+            public Feedback(string userId, List<string> responses)
+            {
+                UserID = userId;
+                Responses = responses;
+            }
+
+            // Method to save feedback data to a file
+            public void SaveFeedback(string filePath)
+            {
+                List<string> feedbackData = new List<string> { $"User ID: {UserID}" };
+                feedbackData.AddRange(Responses);
+                File.AppendAllLines(filePath, feedbackData);
+            }
+        }
 
         private void LoadQustions()
         {
@@ -128,15 +149,31 @@ namespace Survey_and_Student_courses_pages
 
             if (allAnswered)
             {
-                // Save feedback in txt
-                string feedbackPath = Server.MapPath("~/feedbackPHP.txt");
-                // Append feedback to the file
-                File.WriteAllLines(feedbackPath, feedback);
+                // Check if UserID exists in the session
+                if (Session["UserID"] != null)
+                {
+                    string userId = Session["UserID"].ToString();
 
-                // Mark as submitted
-                Session["SurveySubmitted_PHP"] = true;
-                // Show thank you message 
-                ShowThankYou();
+                    // Create Feedback object and save feedback
+                    Feedback userFeedback = new Feedback(userId, feedback.ToList());
+                    string feedbackPath = Server.MapPath("~/feedbackPHP.txt");
+                    userFeedback.SaveFeedback(feedbackPath);
+
+                    // Mark as submitted
+                    Session["SurveySubmitted_PHP"] = true;
+                    // Show thank you message 
+                    ShowThankYou();
+                }
+                else
+                {
+                    // Handle the case where the UserID is not set in the session
+                    ErrorMessage.Text = "User ID is not available. Please log in and try again.";
+                    ErrorMessage.Visible = true;
+
+                    // Ensure the survey panel remains visible
+                    SurveyPanel.Visible = true;
+                    ThankYouPanel.Visible = false;
+                }
             }
             else
             {
@@ -149,7 +186,8 @@ namespace Survey_and_Student_courses_pages
                 SurveyPanel.Visible = true;
                 ThankYouPanel.Visible = false;
             }
-        }
+        
+    }
 
 
         private void ShowThankYou()

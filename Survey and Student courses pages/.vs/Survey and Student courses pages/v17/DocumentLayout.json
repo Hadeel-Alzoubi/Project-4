@@ -11,12 +11,25 @@
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\courses for student.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|c:\\users\\orange\\desktop\\project-04\\survey and student courses pages\\survey and student courses pages\\survey page cplus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\survey page cplus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project-04\\Survey and Student courses pages\\survey and student courses pages\\survey page cplus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\survey page cplus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project-04\\Survey and Student courses pages\\survey and student courses pages\\questionsplus.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\questionsplus.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+=======
       "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\survey and student courses pages\\survey page cplus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\survey page cplus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\survey and student courses pages\\survey page cplus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\survey page cplus.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 3d3a1cd8ff38477ef014940cc6b2e3f922221ad2
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\survey and student courses pages\\survey page nodejs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,11 +64,15 @@
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\questionscsharp.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project-04\\Survey and Student courses pages\\survey and student courses pages\\survey page php.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+=======
       "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\survey and student courses pages\\questionsplus.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\questionsplus.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\survey and student courses pages\\survey page php.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+>>>>>>> 3d3a1cd8ff38477ef014940cc6b2e3f922221ad2
       "RelativeMoniker": "D:0:0:{8C160964-F31C-4FDF-819C-A3EEBDE4C64C}|Survey and Student courses pages\\Survey and Student courses pages.csproj|solutionrelative:survey and student courses pages\\survey page php.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -74,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "questionsPHP.txt",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\questionsPHP.txt",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\questionsPHP.txt",
@@ -86,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "questionsnodeJS.txt",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\questionsnodeJS.txt",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\questionsnodeJS.txt",
@@ -98,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "questionsCsharp.txt",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\questionsCsharp.txt",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\questionsCsharp.txt",
@@ -110,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "questionsPlus.txt",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\questionsPlus.txt",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\questionsPlus.txt",
@@ -128,7 +145,7 @@
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Courses for student.aspx.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Courses for student.aspx.cs",
               "RelativeToolTip": "Survey and Student courses pages\\Courses for student.aspx.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwD8AAAAFAAAA",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAEQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T10:21:50.544Z"
             },
@@ -138,7 +155,11 @@
               "Title": "Courses for student.aspx",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Courses for student.aspx",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Courses for student.aspx",
+<<<<<<< HEAD
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project-04\\Survey and Student courses pages\\Survey and Student courses pages\\Courses for student.aspx",
+=======
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Courses for student.aspx",
+>>>>>>> 3d3a1cd8ff38477ef014940cc6b2e3f922221ad2
               "RelativeToolTip": "Survey and Student courses pages\\Courses for student.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -147,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Survey page PHP.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page PHP.aspx.cs",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey page PHP.aspx.cs",
@@ -171,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Survey page nodejs.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page nodejs.aspx.cs",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey page nodejs.aspx.cs",
@@ -183,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Survey page nodejs.aspx",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page nodejs.aspx",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey page nodejs.aspx",
@@ -195,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Survey Page Csharp.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey Page Csharp.aspx.cs",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey Page Csharp.aspx.cs",
@@ -207,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Survey Page Csharp.aspx",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey Page Csharp.aspx",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey Page Csharp.aspx",
@@ -219,19 +240,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Survey page Cplus.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page Cplus.aspx.cs",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey page Cplus.aspx.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page Cplus.aspx.cs",
               "RelativeToolTip": "Survey and Student courses pages\\Survey page Cplus.aspx.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAiwIQAAAAmAAAA",
+              "ViewState": "AQIAAJgAAAAAAAAAAAAAAL8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-07T10:18:07.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Survey page Cplus.aspx",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\Project-4\\Survey and Student courses pages\\Survey and Student courses pages\\Survey page Cplus.aspx",
               "RelativeDocumentMoniker": "Survey and Student courses pages\\Survey page Cplus.aspx",

@@ -100,7 +100,7 @@
     <nav class="navbar navbar-expand-lg fixed-top justify-content-center">
         <div class="container d-flex justify-content-center">
             <asp:HyperLink runat="server" NavigateUrl="index.aspx" CssClass="navbar-brand">
-            <asp:Image runat="server" ImageUrl="images/logo.png" CssClass="logo-image img-fluid" AlternateText="logo" />
+                <asp:Image runat="server" ImageUrl="images/logo.png" CssClass="logo-image img-fluid" AlternateText="logo" />
             </asp:HyperLink>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -129,12 +129,9 @@
     <header class="site-header d-flex flex-column justify-content-center align-items-center">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-12 col-12 text-center">
-
                     <h2 class="mb-0">Survey</h2>
                 </div>
-
             </div>
         </div>
     </header>

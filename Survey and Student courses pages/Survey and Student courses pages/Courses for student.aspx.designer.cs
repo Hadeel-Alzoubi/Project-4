@@ -33,6 +33,15 @@ namespace Survey_and_Student_courses_pages
         protected global::System.Web.UI.WebControls.Panel CoursesPanel;
 
         /// <summary>
+        /// CsharpCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CsharpCard;
+
+        /// <summary>
         /// LinkButtonCsharp control.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Survey_and_Student_courses_pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButtonCsharp;
+
+        /// <summary>
+        /// PHPCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl PHPCard;
 
         /// <summary>
         /// LinkButtonPHP control.
@@ -51,6 +69,15 @@ namespace Survey_and_Student_courses_pages
         protected global::System.Web.UI.WebControls.LinkButton LinkButtonPHP;
 
         /// <summary>
+        /// NodejsCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl NodejsCard;
+
+        /// <summary>
         /// LinkButtonNodejs control.
         /// </summary>
         /// <remarks>
@@ -58,6 +85,15 @@ namespace Survey_and_Student_courses_pages
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LinkButton LinkButtonNodejs;
+
+        /// <summary>
+        /// CplusCard control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl CplusCard;
 
         /// <summary>
         /// LinkButtonCplus control.
