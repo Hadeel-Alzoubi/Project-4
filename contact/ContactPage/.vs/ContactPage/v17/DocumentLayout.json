@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62A6B14A-B707-4CCF-9BAB-004BFF75F56E}|ContactPage\\ContactPage.csproj|C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\contactpage\\contactpageform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{62A6B14A-B707-4CCF-9BAB-004BFF75F56E}|ContactPage\\ContactPage.csproj|solutionrelative:contactpage\\contactpageform.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A6B14A-B707-4CCF-9BAB-004BFF75F56E}|ContactPage\\ContactPage.csproj|c:\\users\\orange\\desktop\\project -- 04\\contact\\contactpage\\contactpage\\contactpageform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A6B14A-B707-4CCF-9BAB-004BFF75F56E}|ContactPage\\ContactPage.csproj|solutionrelative:contactpage\\contactpageform.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactPageForm.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\ContactPage\\ContactPageForm.aspx.cs",
+              "RelativeDocumentMoniker": "ContactPage\\ContactPageForm.aspx.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\ContactPage\\ContactPageForm.aspx.cs",
+              "RelativeToolTip": "ContactPage\\ContactPageForm.aspx.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T11:41:45.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactPageForm.aspx",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\ContactPage\\ContactPageForm.aspx",
+              "RelativeDocumentMoniker": "ContactPage\\ContactPageForm.aspx",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Project -- 04\\contact\\ContactPage\\ContactPage\\ContactPageForm.aspx",
+              "RelativeToolTip": "ContactPage\\ContactPageForm.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-06T09:43:03.928Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
