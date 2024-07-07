@@ -60,6 +60,6 @@ The project's progress and task management were organized using Trello. You can 
 - [Nour Shloul](https://github.com/NourShloul)
 - [Hosam Abuelhija](https://github.com/hosam-abuelhija)
 - [Ahmad Onizat](https://github.com/a7madddddd)
-- ## [Bassam Bany Ali](https://github.com/BassamBanyAli)
+- [Bassam Bany Ali](https://github.com/BassamBanyAli)
 
 Thank you for checking out the Dynamic Online Feedback System. We hope this project demonstrates our commitment to developing practical and user-friendly applications. If you have any questions or feedback, please feel free to contact us.
